@@ -32,5 +32,6 @@ class ViewController: UIViewController {
         choice1Button.setTitle(storyBrain.stories[storyBrain.currentStory].choice1, for: .normal)
         choice2Button.setTitle(storyBrain.stories[storyBrain.currentStory].choice2, for: .normal)
     }
+    
 }
 
